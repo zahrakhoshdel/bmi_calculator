@@ -210,9 +210,10 @@ class _ResultScreenState extends State<ResultScreen>
         });
   }
 
-  void onSavePressed(bmi, status, statusColor) async {
+  void onSavePressed(bmi, String status, statusColor) async {
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
+      //prefs.clear();
       List<String> saveList = prefs.getStringList('saveList') ?? [];
 
       bmi = bmi.substring(0, bmi.indexOf(('.')) + 2);
@@ -223,38 +224,12 @@ class _ResultScreenState extends State<ResultScreen>
       String formattedDate = DateFormat('yyyy-MM-dd – kk:mm').format(now);
 
       saveList.add(
-          '{bmi: ${bmi}, status: ${status}, statusColor: ${statusColor}, formattedDate: ${formattedDate}}');
+          '{"bmi": "${bmi}", "status": "${status}", "statusColor": "${statusColor}", "formattedDate":"${formattedDate}"}');
 
       await prefs.setStringList('saveList', saveList);
-      print(prefs.getStringList('saveList') ?? []);
+      //print(prefs.getStringList('saveList') ?? []);
     } catch (e) {
       print(e);
     }
   }
-
-  // void onSavePressed(bmi, status, statusColor) async {
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   List<String> bmiList = prefs.getStringList('bmilist') ?? [];
-  //   List<String> statusList = prefs.getStringList('statuslist') ?? [];
-  //   List<String> statusColorList = prefs.getStringList('statusColorlist') ?? [];
-  //   List<String> DateList = prefs.getStringList('DateList') ?? [];
-
-  //   bmi = bmi.substring(0, bmi.indexOf(('.')) + 2);
-  //   status = status;
-  //   String colorString = statusColor.toString(); // Color(0x12345678)
-  //   statusColor = colorString.split('(0x')[1].split(')')[0];
-  //   DateTime now = DateTime.now();
-  //   String formattedDate = DateFormat('yyyy-MM-dd – kk:mm').format(now);
-
-  //   bmiList.add(bmi);
-  //   statusList.add(status);
-  //   statusColorList.add(statusColor);
-  //   DateList.add(formattedDate);
-
-  //   await prefs.setStringList('bmilist', bmiList);
-  //   await prefs.setStringList('statuslist', statusList);
-  //   await prefs.setStringList('statusColorlist', statusColorList);
-  //   await prefs.setStringList('DateList', DateList);
-  // }
-
 }
