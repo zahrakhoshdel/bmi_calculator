@@ -28,10 +28,9 @@ https://user-images.githubusercontent.com/91828519/158033596-6017a71c-b47f-4261-
 
 ## Screenshots
 
-![bmi5](https://user-images.githubusercontent.com/91828519/158033651-62c2d5b7-489a-414e-b0fe-63dc35ac94f9.png)
-
 <p align="center">
     <img src="https://user-images.githubusercontent.com/91828519/158033632-01cfe8be-19f3-4dcc-b020-03faa560e9fc.png" width="270">
     <img src="https://user-images.githubusercontent.com/91828519/158033640-7dc01de7-96c6-4fe8-bd51-f89886c892ac.png" width="270">
     <img src="https://user-images.githubusercontent.com/91828519/158033646-deeca939-3dc8-4e4f-8732-21fee1cefff5.png" width="270">
+ <img src="https://user-images.githubusercontent.com/91828519/158033651-62c2d5b7-489a-414e-b0fe-63dc35ac94f9.png" width="270">
 </p>
