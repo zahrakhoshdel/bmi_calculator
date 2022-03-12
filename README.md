@@ -1,16 +1,40 @@
-# bmi
+# BMI Calculator Flutter
 
-A new Flutter project.
+A flutter app to calculate BMI
 
-## Getting Started
+> **BMI Calculator** is a **Body Mass Index(BMI)** calculator app developed with **[Flutter](https://github.com/flutter/flutter)**.
+Currently, the BMI is calculated using **Metric** units.
 
-This project is a starting point for a Flutter application.
+## Table of Contents
 
-A few resources to get you started if this is your first Flutter project:
+* [Demo](#demo)
+* [Screenshots](#screenshots)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Code Contributors](#code-contributors)
+* [Contributing](#-contributing)
+* [Author](#author)
+* [License](#-license)
+* [Acknowledgements](#acknowledgements)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Demo
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Demo Video
+
+https://user-images.githubusercontent.com/91828519/158033596-6017a71c-b47f-4261-a036-6d696a5bcdc2.mp4
+
+
+## Screenshots
+![bmi1](https://user-images.githubusercontent.com/91828519/158033632-01cfe8be-19f3-4dcc-b020-03faa560e9fc.png)
+![bmi3](https://user-images.githubusercontent.com/91828519/158033640-7dc01de7-96c6-4fe8-bd51-f89886c892ac.png)
+![bmi4](https://user-images.githubusercontent.com/91828519/158033646-deeca939-3dc8-4e4f-8732-21fee1cefff5.png)
+![bmi5](https://user-images.githubusercontent.com/91828519/158033651-62c2d5b7-489a-414e-b0fe-63dc35ac94f9.png)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/halildurmus/bmi-calculator/master/screenshots/home.png" width="270">
+    <img src="https://raw.githubusercontent.com/halildurmus/bmi-calculator/master/screenshots/result.png" width="270">
+    <img src="https://raw.githubusercontent.com/halildurmus/bmi-calculator/master/screenshots/bmi-chart.png" width="270">
+</p>
