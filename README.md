@@ -10,6 +10,7 @@ With this application, you can use it to assess wheter you are at the ideal weig
 
 * [Demo](#demo)
 * [Screenshots](#screenshots)
+* [Files](#files)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -32,6 +33,31 @@ https://user-images.githubusercontent.com/91828519/158033596-6017a71c-b47f-4261-
     <img src="https://user-images.githubusercontent.com/91828519/158034222-adf7643c-8463-4c0b-b1b5-1642dac8b3b5.png" width="200">
 </p>
 
+## Files
+
+>The file Components have all the reusable widgets that I use on the screens.
+
+
+    | screens
+    |---- history_screen.dart
+    |---- home_screen.dart
+    |-----result_screen.dart
+    | widget
+    |---- | base
+    |---- |---- base_container.dart
+    |---- |---- base_screen.dart
+    |---- |---- navigation_drawer.dart
+    |---- advice_container.dart
+    |---- circle_button.dart
+    |---- custom_button.dart
+    |---- custome_alert_dialog.dart
+    |---- gender_container.dart
+    |---- height_container.dart
+    |---- result_container.dart
+    |---- selector_container.dart
+    | constants.dart
+    | main.dart
+    
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
