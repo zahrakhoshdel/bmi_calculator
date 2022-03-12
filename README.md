@@ -29,8 +29,8 @@ https://user-images.githubusercontent.com/91828519/158033596-6017a71c-b47f-4261-
 ## Screenshots
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/91828519/158033632-01cfe8be-19f3-4dcc-b020-03faa560e9fc.png" width="270">
-    <img src="https://user-images.githubusercontent.com/91828519/158033640-7dc01de7-96c6-4fe8-bd51-f89886c892ac.png" width="270">
-    <img src="https://user-images.githubusercontent.com/91828519/158033646-deeca939-3dc8-4e4f-8732-21fee1cefff5.png" width="270">
- <img src="https://user-images.githubusercontent.com/91828519/158033651-62c2d5b7-489a-414e-b0fe-63dc35ac94f9.png" width="270">
+    <img src="https://user-images.githubusercontent.com/91828519/158034224-cc1e9d34-c290-42d7-9bba-8ccb65a8a33c.png" width="205">
+    <img src="https://user-images.githubusercontent.com/91828519/158034227-f9c433ca-4274-4b75-8875-5af081d9f920.png" width="205">
+    <img src="https://user-images.githubusercontent.com/91828519/158034216-d7e3e076-b1b7-48f8-8d34-97e1b95e79c4.png" width="205">
+    <img src="https://user-images.githubusercontent.com/91828519/158034222-adf7643c-8463-4c0b-b1b5-1642dac8b3b5.png" width="205">
 </p>
