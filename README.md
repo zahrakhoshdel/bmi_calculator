@@ -14,11 +14,7 @@ Currently, the BMI is calculated using **Metric** units.
   * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
-* [Code Contributors](#code-contributors)
-* [Contributing](#-contributing)
 * [Author](#author)
-* [License](#-license)
-* [Acknowledgements](#acknowledgements)
 
 ## Demo
 
