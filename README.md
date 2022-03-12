@@ -34,3 +34,28 @@ https://user-images.githubusercontent.com/91828519/158033596-6017a71c-b47f-4261-
     <img src="https://user-images.githubusercontent.com/91828519/158034216-d7e3e076-b1b7-48f8-8d34-97e1b95e79c4.png" width="205">
     <img src="https://user-images.githubusercontent.com/91828519/158034222-adf7643c-8463-4c0b-b1b5-1642dac8b3b5.png" width="205">
 </p>
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+You need to have **Flutter** installed on your pc.
+* [Install Flutter](https://flutter.dev/docs/get-started/install)
+
+### Installation
+
+1. Clone the repo using: `git clone https://github.com/zahrakhoshdel/bmi_calculator.git`
+2. To get the packages needed for the app, run:
+```Dart
+flutter pub get
+```
+
+## Usage
+
+If you have a connected device or emulator running, you can run the app with:
+```Dart
+flutter run
+```
+
