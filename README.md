@@ -1,9 +1,10 @@
 # BMI Calculator Flutter
 
-A flutter app to calculate BMI
 
 > **BMI Calculator** is a **Body Mass Index(BMI)** calculator app developed with **[Flutter](https://github.com/flutter/flutter)**.
-Currently, the BMI is calculated using **Metric** units.
+Currently, the BMI is calculated using **Metric** units. **BMI** is an index calculated with the help of the **height** and **weight** of a person which categorieses him or her to different groups like **healthy, over weight, under weight, etc.** as per the standard guidelines and research.
+
+With this application, you can use it to assess wheter you are at the ideal weight according to your height. And depending on this result, you can know if you are at the ideal wight, below or above.
 
 ## Table of Contents
 
